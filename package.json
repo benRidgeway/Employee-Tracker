@@ -2,21 +2,23 @@
   "name": "employee-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "console": "^0.7.2",
     "console.table": "^0.10.0",
+    "dotenv": "^16.0.2",
     "inquirer": "^8.2.4",
     "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "table": "^6.8.0"
   }
 }
